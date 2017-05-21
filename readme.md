@@ -13,6 +13,7 @@
 # follow along
 
 ESSID: CITY-SOF
+
 PASSWORD: sofouaccess09
 
 ```

@@ -9,6 +9,9 @@
 * testing
 * webgl + webaudio
 
+ESSID: CITY-SOF
+PASSWORD: sofouaccess09
+
 ```
 git clone https://github.com/substack/thess-web-workshop.git
 cd thess-web-workshop

@@ -1,10 +1,11 @@
 var split = require('split2')
-var through = require('through2')
+var to = require('to2')
 var lines = 0
 
 process.stdin
   .pipe(split())
-  .pipe(through(write, end))
+  .pipe(to(write, end))
+
 function write (buf, enc, next) {
   lines++
   next()

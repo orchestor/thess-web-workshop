@@ -2,6 +2,8 @@
   "dependencies": {
     "angle-normals": "^1.0.0",
     "body": "^5.1.0",
+    "browserify": "^14.3.0",
+    "budo": "^10.0.3",
     "bunny": "^1.0.1",
     "chloride": "^2.2.6",
     "choo": "^5.4.0",
@@ -45,9 +47,11 @@
     "through2": "^2.0.3",
     "to2": "^1.0.0",
     "vectorize-text": "^3.0.2",
+    "watchify": "^3.9.0",
     "webaudio": "^2.0.0",
     "webrtc-swarm": "^2.8.0",
     "websocket-stream": "^4.0.0",
+    "wsnc": "^1.1.1",
     "yo-yo": "^1.4.0",
     "yo-yoify": "^3.7.3"
   }

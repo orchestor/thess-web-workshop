@@ -1,11 +1,14 @@
-// wsnc ws://localhost:5000
+// npm run watch
 // node server.js
 
 var http = require('http')
+var ecstatic = require('ecstatic')
+var st = ecstatic(__dirname + '/public')
 var server = http.createServer(function (req, res) {
-  res.end('whatever\n')
+  st(req,res)
 })
 server.listen(5000)
+console.log('http://localhost:5000')
 
 var to = require('to2')
 var split = require('split2')

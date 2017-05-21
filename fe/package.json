@@ -1,5 +1,6 @@
 {
   "scripts": {
-    "dev": "budo choo.js"
+    "dev": "budo choo.js",
+    "watch": "watchify choo.js -o public/bundle.js -dv"
   }
 }

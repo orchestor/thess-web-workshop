@@ -1,9 +1,15 @@
 var app = require('choo')()
 var html = require('choo/html')
 
+app.route('/cool', function (state, emit) {
+  return html`<body>
+    <h1>COOOL</h1>
+  </body>`
+})
 app.route('/', function (state, emit) {
   return html`<body>
     <h1>hi ${state.name}!!!!! ${state.n}</h1>
+    <a href="/cool">CoOOOOOOllllllll</a>
     <button onclick=${onclick}>CLICK ME</button>
     <form onsubmit=${onsubmit}>
       <input type="text" name="nym">

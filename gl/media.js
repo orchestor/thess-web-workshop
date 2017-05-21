@@ -1,4 +1,4 @@
-// budo grid.js -- -t glslify
+// budo media.js -- -t glslify
 var regl = require('regl')()
 var camera = require('regl-camera')(regl,
   { distance: 30, phi: 0.1 })

@@ -9,6 +9,9 @@
 * testing
 * webgl + webaudio
 
+---
+# follow along
+
 ESSID: CITY-SOF
 PASSWORD: sofouaccess09
 
